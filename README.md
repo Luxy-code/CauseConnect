@@ -244,4 +244,4 @@ This is a student project, and we'd rather tell you than have you discover it:
 
 ## A last word
 
-CauseConnect isn't trying to be the next big fundraising site. It's a project where we got to take an idea from a blank folder to a working app: database, JDBC, DAOs, business rules, and a real interface, one bug at a time. If you run it and it just works, that's a good feeling. If it doesn't, check the project root, the MySQL password and the jar paths. That's where most of our problems came from too. 🙂
+CauseConnect isn't trying to be the next big fundraising site. It's a project where we got to take an idea from a blank folder to a working app: database, JDBC, DAOs, business rules, and a real interface, one bug at a time. If you run it and it just works, that's a good feeling. If it doesn't, check the project root, the MySQL password and the jar paths. That's where most of our problems came from too. 
