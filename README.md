@@ -14,9 +14,9 @@ That's CauseConnect. It's a small web app with three kinds of people:
 
 | Who | What they can do |
 |---|---|
-| 🧑‍🏫 **Creator** | Start a campaign, track how much it has raised, post updates for supporters |
-| 🙋 **Contributor** | Browse campaigns, donate, and look back at everything they've supported |
-| 🛡️ **Admin** | Review new campaigns, approve or reject them, and keep an eye on users and contributions |
+| **Creator** | Start a campaign, track how much it has raised, post updates for supporters |
+| **Contributor** | Browse campaigns, donate, and look back at everything they've supported |
+| **Admin** | Review new campaigns, approve or reject them, and keep an eye on users and contributions |
 
 One rule we're quietly proud of: **you can only donate to a campaign an admin has approved.** If someone tries to donate to a rejected one, the system says no.
 
@@ -89,7 +89,7 @@ causeconnect/
 
 Open MySQL (Workbench or the command line) and run the script in `Frontend/CROWDFUNDING.sql`. It creates the tables and adds three demo users.
 
-> ⚠️ **Heads up:** the app connects to a database called `crowdfunding` (lowercase). On Windows MySQL doesn't care about capitals, but on Linux/macOS it does. If you're on one of those, create the database as `crowdfunding` in lowercase.
+> **Heads up:** the app connects to a database called `crowdfunding` (lowercase). On Windows MySQL doesn't care about capitals, but on Linux/macOS it does. If you're on one of those, create the database as `crowdfunding` in lowercase.
 
 ### 3. Tell the app how to reach MySQL
 
@@ -127,7 +127,7 @@ java -cp "Backend/out;Backend/lib/*" server.CauseConnectServer
 
 You should see a banner saying **CauseConnect Backend Server Running!** Now open:
 
-👉 **http://localhost:8080**
+**http://localhost:8080**
 
 Want a different port? Just add it at the end, e.g. `... server.CauseConnectServer 9090`.
 
