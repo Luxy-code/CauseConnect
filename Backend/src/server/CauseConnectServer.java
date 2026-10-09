@@ -39,12 +39,9 @@ public class CauseConnectServer {
     private static final Map<String, User> sessions = new HashMap<>();
 
     public static void main(String[] args) throws IOException {
-        int port = PORT;
-        if (args.length > 0) {
-            try {
-                port = Integer.parseInt(args[0]);
-            } catch (NumberFormatException ignored) {}
-        }
+       int port = Integer.parseInt(
+    System.getenv().getOrDefault("PORT", "8080")
+);
 
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
 
