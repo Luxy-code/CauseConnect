@@ -4,7 +4,7 @@
    Connect People. Fund Causes. Create Impact.
    ========================================================================== */
 
-const API_BASE = window.CAUSECONNECT_API_BASE || 'http://localhost:8080/api';
+const API_BASE = window.CAUSECONNECT_API_BASE || 'https://causeconnect-l4q6.onrender.com/api';
 
 /* ---------- Asynchronous Backend API Layer ---------- */
 const API = {
